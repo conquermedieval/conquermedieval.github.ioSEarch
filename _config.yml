@@ -1,0 +1,50 @@
+# Site settings
+title: Nilsonlinux
+email: nilsonlinux@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://conquermedieval.github.io # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Nilsonlinux
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+twitter: nilsonlinux
+weibo: nilsonlinux
+github: nilsonlinux
+instagram: nilsonlinux
+linkedin: nilsonlinux
+
+# avatar and Favicon
+avatar: https://avatars2.githubusercontent.com/u/22534130?s=460&v=4
+favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+# disqus config
+disqus:
+  shortname: nilsonlinux
+
+# google analytics config
+ga:
+  id: UA-54767140-1
+  url: conquermedieval.github.io
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
